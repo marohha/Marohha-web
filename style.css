@@ -516,6 +516,10 @@ body {
         margin-bottom: 20px;
     }
 
+    .trends {
+        padding-bottom: 80px;
+    }
+
     .trends-cards {
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 90px;
