@@ -70,7 +70,7 @@ body {
   }
   
   .menu-link:hover {
-    color: #F65843;
+    color: #fff;
   }
 
   .title-box {
@@ -105,7 +105,7 @@ body {
     perspective(400px) 
     scaleZ(1)
     translateZ(50px);
-    color: #F65843;
+    color: #fff;
   }
 
   .main-page {
@@ -159,7 +159,7 @@ body {
   }
 
   .photo-marohha:hover {
-   border: 3px solid #F65843;
+   border: 3px solid #fff;
    border-radius: 30%;
    -webkit-transform: rotate(360deg);
    transform: rotate(360deg);
@@ -167,7 +167,7 @@ body {
 
 
   .photo-marohha:hover {
-    border: 3px solid #F65843;
+    border: 3px solid #fff;
   }
 
   .text-marohha {
@@ -187,11 +187,11 @@ body {
 
   .Surname {
     font-size: 50px;
-    color: #F65843;
+    color: #EB7F00;
   }
 
   .Surname:hover {
-    color: #EB7F00;
+    color: #fff;
   }
 
   .header-trends {
@@ -217,7 +217,7 @@ body {
     display: block;
     width: 150px;
     height: 5px;
-    background-color: #F65843;
+    background-color: #EB7F00;
     margin: 14px auto 29px;
     z-index: 7;
   }
@@ -290,10 +290,10 @@ body {
   .trend-card-content {
     position: absolute;
     z-index: 2;
-    padding: 30px;
+    padding: 30px 20px;
     box-sizing: border-box;
-    border: 3px dashed #EB7F00;
-    text-align: left;
+    border: 3px solid #EB7F00;
+    text-align: center;
     justify-content: center;
     bottom: 20px;
     left: 20px;
@@ -303,7 +303,7 @@ body {
   }
 
   .trend-card-content:hover {
-    border: 3px solid #F65843;
+    border: 3px dashed #fff;
   }
 
   .trend-card-links {
@@ -319,7 +319,7 @@ body {
     font-weight: 600;
     font-style: bold;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     color: #fff;
     margin-top: 6px;
@@ -464,12 +464,13 @@ body {
         padding: 25px 10px;
         align-items: center;
         text-align: center;
-        border: 3px dashed #F65843;
+        border: 3px dashed #EB7F00;
     }
 
     .menu-mobile {
         width: 100%;
         height: 70px;
+        padding: 10px;
         background-color: #262626;
         position: fixed;
         bottom: 0;
@@ -499,10 +500,10 @@ body {
 
       .menu-mobile-link {
         text-decoration: none;
-        font-size: 12px;
-        color: #F65843;
+        font-size: 10px;
+        color: #fff;
         font-family: open-sans;
-        font-weight: 600;
+        font-weight: 400;
         font-style: bold;
         text-transform: uppercase;
         margin-top: 5px;
@@ -538,7 +539,7 @@ body {
       .menu-icon-contacts {
         width: 100%;
         height: 70%;
-        background-image: url("img/phone-office-svgrepo-com\ —\ копия.svg");
+        background-image: url("img/contacts-svgrepo-com\ —\ копия\ 3.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
