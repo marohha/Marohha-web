@@ -544,5 +544,9 @@ body {
         background-position: center;
       }
 
+      .trend-card::after {
+        display: none;
+      }
+
 
   }
