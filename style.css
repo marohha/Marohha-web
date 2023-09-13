@@ -207,6 +207,92 @@ body {
     color: #fff;
   }
 
+  .header-choice {
+    text-transform: uppercase;
+    font-family: open-sans;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    z-index: 7;
+    position: relative;
+  }
+
+  .header-choice::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 5px;
+    background-color: #EB7F00;
+    margin: 14px auto 29px;
+    z-index: 7;
+  }
+
+  .your-choice-left {
+    width: 100%;
+    height: 100%;
+    padding: 10px 150px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .your-choice-right {
+    width: 100%;
+    height: 100%;
+    padding: 10px 150px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: right;
+    justify-content: right;
+  }
+
+  .choice-logo-left {
+    width: 80px;
+    height: 80px;
+    background-image: url("img/arrow-turn-down-right-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 7;
+  }
+
+  .choice-logo-right {
+    width: 80px;
+    height: 80px;
+    background-image: url("img/arrow-turn-down-left-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 7;
+  }
+
+  .choice-text-left {
+    text-transform: uppercase;
+    font-family: open-sans;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    z-index: 7;
+    position: relative;
+  }
+
+  .choice-text-right {
+    text-transform: uppercase;
+    font-family: open-sans;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    z-index: 7;
+    position: relative;
+  }
+
   .header-trends {
     text-align: center;
     margin-top: 0;
@@ -238,13 +324,14 @@ body {
 
   .trends {
     margin-top: -20px;
+    position: relative;
   }
 
   .trends-cards {
     margin: 0;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(auto-fill);
     gap: 5px;
     z-index: 3;
@@ -367,6 +454,58 @@ body {
     display: none;
   }
 
+  .contacts {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contacts-text {
+    font-family: open-sans;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 25px;
+    color: #fff;
+    z-index: 7;
+    position: relative;
+  }
+
+  .map {
+    z-index: 4;
+    position: relative;
+    border: 3px solid #EB7F00;
+  }
+
+  .footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    margin-top: 0;
+    display: flex;
+    border-top: 2px solid #EB7F00;
+
+  }
+
+  .footer-box {
+    width: 100%;
+    padding: 10px 70px;
+    font-family: open-sans;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: #EB7F00
+  }
+
   @media (max-width: 640px) {
     .title {
         font-size: 25px;
@@ -475,6 +614,8 @@ body {
 
     .trend-card {
         margin-bottom: 100px;
+        width: 100%;
+        max-height: 300px;
     }
 
     .logo-header {
@@ -491,6 +632,44 @@ body {
         text-align: center;
         border: 3px solid #EB7F00;
     }
+
+    .header-choice {
+        font-weight: 600;
+        font-size: 17px;
+      }
+    
+      .header-choice::after {
+        width: 150px;
+        height: 3px;
+      }
+    
+      .your-choice-left {
+        padding: 10px 50px;
+      }
+    
+      .your-choice-right {
+        padding: 10px 50px;
+      }
+    
+      .choice-logo-left {
+        width: 60px;
+        height: 60px;
+      }
+    
+      .choice-logo-right {
+        width: 80px;
+        height: 80px;
+      }
+    
+      .choice-text-left {
+        font-size: 15px;
+        text-align: left;
+      }
+
+      .choice-text-right {
+        font-size: 15px;
+        text-align: right;
+      }
 
     .menu-mobile {
         width: 100%;
@@ -574,5 +753,24 @@ body {
         display: none;
       }
 
+      .contacts {
+        margin-top: 70px;
+        padding-bottom: 100px;
+        display: block;
+      }
+    
+      .contacts-text {
+        font-weight: 400;
+        font-size: 15px;
+      }
+    
+      .map {
+        width: 100%;
+      }
+    
+      .footer {
+        display: none;
+      }
+    
 
   }
